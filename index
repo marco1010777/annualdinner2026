@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Hub - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="nav-logo">Event Hub</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="event-info.html" class="nav-link">Event Information</a></li>
+                    <li><a href="registration.html" class="nav-link">Registration</a></li>
+                    <li><a href="game.html" class="nav-link">Game</a></li>
+                    <li><a href="game-rules.html" class="nav-link">Game Rules</a></li>
+                    <li><a href="#" class="nav-link disabled">Best Dressed Award (Coming Soon)</a></li>
+                    <li><a href="#" class="nav-link disabled">Performances (Coming Soon)</a></li>
+                    <li><a href="#" class="nav-link disabled">Transportation (Coming Soon)</a></li>
+                    <li><a href="#" class="nav-link disabled">Seating (Coming Soon)</a></li>
+                    <li><a href="#" class="nav-link disabled">Event Photos (Coming Soon)</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="home-main">
+        <section class="hero">
+            <h2>Welcome to the Grand Event 2025</h2>
+            <p>Join us for an unforgettable evening filled with fun, games, awards, and performances!</p>
+            <a href="event-info.html" class="cta-button">Learn More</a>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Exciting Game</h3>
+                <p>Test your skills in our interactive game.</p>
+                <a href="game.html">Play Now</a>
+            </div>
+            <div class="feature-card">
+                <h3>Easy Registration</h3>
+                <p>Sign up quickly and securely.</p>
+                <a href="registration.html">Register</a>
+            </div>
+            <div class="feature-card">
+                <h3>Event Details</h3>
+                <p>Get all the information you need.</p>
+                <a href="event-info.html">View Details</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Event Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
